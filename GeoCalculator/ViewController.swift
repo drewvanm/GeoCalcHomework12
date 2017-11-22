@@ -45,7 +45,7 @@ class ViewController: UIViewController {
         self.view.backgroundColor = THEME_COLOR2
         self.ref = FIRDatabase.database().reference()
         self.registerForFireBaseUpdates()
-
+        clearWeatherViews()
     }
 
     override func didReceiveMemoryWarning() {
